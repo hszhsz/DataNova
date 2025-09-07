@@ -36,7 +36,7 @@ export default function HomePage() {
           <Tooltip title={t("starOnGitHub")}>
             <Button variant="ghost" size="icon" asChild>
               <Link
-                href="https://github.com/bytedance/DataNova"
+                href="https://github.com/hszhsz/DataNova"
                 target="_blank"
               >
                 <GithubOutlined />

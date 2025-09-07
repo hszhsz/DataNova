@@ -195,7 +195,7 @@ export function MessagesBlock({ className }: { className?: string }) {
                 {t("demoNotice")}{" "}
                 <a
                   className="underline"
-                  href="https://github.com/bytedance/DataNova"
+                  href="https://github.com/hszhsz/DataNova"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

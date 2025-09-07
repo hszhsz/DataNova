@@ -1,56 +1,56 @@
-# 🦌 DeerFlow Web UI
+# 🚀 DataNova Web UI
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Originated from Open Source, give back to Open Source.
+> Создано на базе открытого кода, возвращено в открытый код.
 
-This is the web UI for [`DeerFlow`](https://github.com/bytedance/deer-flow).
+Это веб-интерфейс для [`DataNova`](https://github.com/hszhsz/DataNova).
 
-## Quick Start
+## Быстрый старт
 
-### Prerequisites
+### Предварительные требования
 
-- [`DeerFlow`](https://github.com/bytedance/deer-flow)
+- [`DataNova`](https://github.com/hszhsz/DataNova)
 - Node.js (v22.14.0+)
-- pnpm (v10.6.2+) as package manager
+- pnpm (v10.6.2+) как менеджер пакетов
 
-### Configuration
+### Конфигурация
 
-Create a `.env` file in the project root and configure the following environment variables:
+Создайте файл `.env` в корне проекта и настройте следующие переменные окружения:
 
-- `NEXT_PUBLIC_API_URL`: The URL of the deer-flow API.
+- `NEXT_PUBLIC_API_URL`: URL API DataNova.
 
-It's always a good idea to start with the given example file, and edit the `.env` file with your own values:
+Всегда лучше начать с примера файла и отредактировать файл `.env` со своими значениями:
 
 ```bash
 cp .env.example .env
 ```
 
-## How to Install
+## Как установить
 
-DeerFlow Web UI uses `pnpm` as its package manager.
-To install the dependencies, run:
+DataNova Web UI использует `pnpm` как менеджер пакетов.
+Для установки зависимостей выполните:
 
 ```bash
 cd web
 pnpm install
 ```
 
-## How to Run in Development Mode
+## Как запустить в режиме разработки
 
-> [!NOTE]
-> Ensure the Python API service is running before starting the web UI.
+> [!ПРИМЕЧАНИЕ]
+> Убедитесь, что сервис Python API запущен перед запуском веб-интерфейса.
 
-Start the web UI development server:
+Запустите сервер разработки веб-интерфейса:
 
 ```bash
 cd web
 pnpm dev
 ```
 
-By default, the web UI will be available at `http://localhost:3000`.
+По умолчанию веб-интерфейс будет доступен по адресу `http://localhost:3000`.
 
-You can set the `NEXT_PUBLIC_API_URL` environment variable if you're using a different host or location.
+Вы можете установить переменную окружения `NEXT_PUBLIC_API_URL`, если используете другой хост или расположение.
 
 ```ini
 # .env
@@ -59,54 +59,54 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api
 
 ## Docker
 
-You can also run this project with Docker.
+Вы также можете запустить этот проект с помощью Docker.
 
-First, you need read the [configuration](#configuration) below. Make sure `.env` file is ready.
+Сначала прочитайте [конфигурацию](#конфигурация) ниже. Убедитесь, что файл `.env` готов.
 
-Second, to build a Docker image of your own web server:
+Во-вторых, чтобы собрать образ Docker вашего веб-сервера:
 
 ```bash
-docker build --build-arg NEXT_PUBLIC_API_URL=YOUR_DEER-FLOW_API -t deer-flow-web .
+docker build --build-arg NEXT_PUBLIC_API_URL=YOUR_DATANOVA_API -t datanova-web .
 ```
 
-Final, start up a docker container running the web server:
+Наконец, запустите контейнер Docker с веб-сервером:
 
 ```bash
-# Replace deer-flow-web-app with your preferred container name
-docker run -d -t -p 3000:3000 --env-file .env --name deer-flow-web-app deer-flow-web
+# Замените datanova-web-app на предпочитаемое вами имя контейнера
+docker run -d -t -p 3000:3000 --env-file .env --name datanova-web-app datanova-web
 
-# stop the server
-docker stop deer-flow-web-app
+# остановить сервер
+docker stop datanova-web-app
 ```
 
 ### Docker Compose
 
-You can also setup this project with the docker compose:
+Вы также можете настроить этот проект с помощью docker compose:
 
 ```bash
-# building docker image
+# сборка образа docker
 docker compose build
 
-# start the server
+# запуск сервера
 docker compose up
 ```
 
-## License
+## Лицензия
 
-This project is open source and available under the [MIT License](../LICENSE).
+Этот проект с открытым исходным кодом доступен по [лицензии MIT](../LICENSE).
 
-## Acknowledgments
+## Благодарности
 
-We extend our heartfelt gratitude to the open source community for their invaluable contributions.
-DeerFlow is built upon the foundation of these outstanding projects:
+Мы выражаем искреннюю благодарность сообществу открытого исходного кода за их бесценный вклад.
+DataNova построен на фундаменте этих выдающихся проектов:
 
-In particular, we want to express our deep appreciation for:
+В частности, мы хотим выразить глубокую признательность:
 
-- [Next.js](https://nextjs.org/) for their exceptional framework
-- [Shadcn](https://ui.shadcn.com/) for their minimalistic components that powers our UI
-- [Zustand](https://zustand.docs.pmnd.rs/) for their stunning state management
-- [Framer Motion](https://www.framer.com/motion/) for their amazing animation library
-- [React Markdown](https://www.npmjs.com/package/react-markdown) for their exceptional markdown rendering and customizability
-- Last but not least, special thanks to [SToneX](https://github.com/stonexer) for his great contribution for [token-by-token visual effect](./src/core/rehype/rehype-split-words-into-spans.ts)
+- [Next.js](https://nextjs.org/) за их исключительный фреймворк
+- [Shadcn](https://ui.shadcn.com/) за их минималистичные компоненты, которые питают наш интерфейс
+- [Zustand](https://zustand.docs.pmnd.rs/) за их потрясающее управление состоянием
+- [Framer Motion](https://www.framer.com/motion/) за их удивительную библиотеку анимации
+- [React Markdown](https://www.npmjs.com/package/react-markdown) за их исключительный рендеринг markdown и настраиваемость
+- И наконец, особая благодарность [SToneX](https://github.com/stonexer) за его большой вклад в [визуальный эффект токен-за-токеном](./src/core/rehype/rehype-split-words-into-spans.ts)
 
-These outstanding projects form the backbone of DeerFlow and exemplify the transformative power of open source collaboration.
+Эти выдающиеся проекты формируют основу DataNova и демонстрируют трансформирующую силу сотрудничества в открытом исходном коде.

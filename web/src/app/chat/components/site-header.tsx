@@ -36,7 +36,7 @@ export function SiteHeader() {
             asChild
             className="group relative z-10"
           >
-            <Link href="https://github.com/bytedance/DataNova" target="_blank">
+            <Link href="https://github.com/hszhsz/DataNova" target="_blank">
               <GitHubLogoIcon className="size-4" />
               {t('starOnGitHub')}
               {env.NEXT_PUBLIC_STATIC_WEBSITE_ONLY &&
@@ -55,7 +55,7 @@ export async function StarCounter() {
 
   try {
     const response = await fetch(
-      "https://api.github.com/repos/bytedance/DataNova",
+      "https://api.github.com/repos/hszhsz/DataNova",
       {
         headers: env.GITHUB_OAUTH_TOKEN
           ? {

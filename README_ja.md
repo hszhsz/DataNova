@@ -1,37 +1,37 @@
-# 🦌 DeerFlow
+# 🚀 DataNova
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[English](./README.md) | [简体中文](./README_zh.md) | [日本語](./README_ja.md) | [Deutsch](./README_de.md) | [Español](./README_es.md) | [Русский](./README_ru.md) | [Portuguese](./README_pt.md)
+[English](./README.md) | [简体中文](./README_zh.md) | [日本語](./README_ja.md) | [Deutsch](./README_de.md) | [Español](./README_es.md) | [Русский](./README_ru.md) |[Portuguese](./README_pt.md)
 
-> オープンソースから生まれ、オープンソースに還元する。
+> AIインテリジェンスでデータウェアハウス開発を革新する
 
-**DeerFlow**（**D**eep **E**xploration and **E**fficient **R**esearch **Flow**）は、オープンソースコミュニティの素晴らしい成果の上に構築されたコミュニティ主導の深層研究フレームワークです。私たちの目標は、言語モデルとウェブ検索、クローリング、Python コード実行などの専門ツールを組み合わせながら、これを可能にしたコミュニティに貢献することです。
+**DataNova** は、大規模言語モデルと専門ツールを組み合わせたAI駆動型データウェアハウス開発プラットフォームで、データチームにインテリジェントなデータアーキテクチャ設計、クエリ最適化、自動化パイプライン生成機能を提供します。私たちの目標は、AI駆動のインサイトと推奨を通じて、従来のデータウェアハウス開発を変革することです。
 
-現在、DeerFlow は火山引擎の FaaS アプリケーションセンターに正式に入居しています。ユーザーは体験リンクを通じてオンラインで体験し、その強力な機能と便利な操作を直感的に感じることができます。同時に、さまざまなユーザーの展開ニーズを満たすため、DeerFlow は火山引擎に基づくワンクリック展開をサポートしています。展開リンクをクリックして展開プロセスを迅速に完了し、効率的な研究の旅を始めましょう。
+DataNovaは、[火山エンジンのFaaSアプリケーションセンター](https://console.volcengine.com/vefaas/region:vefaas+cn-beijing/market)に正式に登録されており、[体験リンク](https://console.volcengine.com/vefaas/region:vefaas+cn-beijing/market/datanova/?channel=github&source=datanova)を通じてオンライン体験が可能です。その強力な機能と便利な操作を直感的に感じ取ることができます。同時に、異なるユーザーのデプロイメントニーズを満たすため、DataNovaは火山エンジンベースのワンクリックデプロイメントをサポートしています。[デプロイメントリンク](https://console.volcengine.com/vefaas/region:vefaas+cn-beijing/application/create?templateId=683adf9e372daa0008aaed5c&channel=github&source=datanova)をクリックすることで、迅速にデプロイメントプロセスを完了し、インテリジェントなデータウェアハウス開発の旅を始めることができます。
 
-詳細については[DeerFlow の公式ウェブサイト](https://deerflow.tech/)をご覧ください。
+[DataNovaの公式ウェブサイト](https://datanova.tech/)をご覧ください。
 
 ## デモ
 
-### ビデオ
+### 動画
 
 <https://github.com/user-attachments/assets/f3786598-1f2a-4d07-919e-8b99dfa1de3e>
 
-このデモでは、DeerFlowの使用方法を紹介しています：
+このデモでは、DataNovaの使用方法を紹介します：
 
 - MCPサービスとのシームレスな統合
-- 深層研究プロセスの実施と画像を含む包括的なレポートの作成
-- 生成されたレポートに基づくポッドキャストオーディオの作成
+- 深度のあるデータ分析プロセスとチャートを含む包括的なレポートの生成
+- 生成された分析レポートに基づくポッドキャストオーディオの作成
 
 ### リプレイ例
 
-- [エッフェル塔は世界一高いビルと比べてどれくらい高い？](https://deerflow.tech/chat?replay=eiffel-tower-vs-tallest-building)
-- [GitHub で最も人気のあるリポジトリは？](https://deerflow.tech/chat?replay=github-top-trending-repo)
-- [南京の伝統料理に関する記事を書く](https://deerflow.tech/chat?replay=nanjing-traditional-dishes)
-- [賃貸アパートの装飾方法は？](https://deerflow.tech/chat?replay=rental-apartment-decoration)
-- [公式ウェブサイトでより多くのリプレイ例をご覧ください。](https://deerflow.tech/#case-studies)
+- [eコマースデータウェアハウスのスター型スキーマ設計](https://datanova.tech/chat?replay=ecommerce-star-schema-design)
+- [複雑なSQLクエリのパフォーマンス最適化](https://datanova.tech/chat?replay=sql-query-optimization)
+- [ストリーミングデータを処理するリアルタイムデータパイプラインの構築](https://datanova.tech/chat?replay=realtime-data-pipeline)
+- [データ品質監視およびアラートシステムの実装](https://datanova.tech/chat?replay=data-quality-monitoring)
+- [公式ウェブサイトでより多くのリプレイ例を探索してください。](https://datanova.tech/#case-studies)
 
 ---
 
@@ -41,27 +41,27 @@
 - [🌟 特徴](#特徴)
 - [🏗️ アーキテクチャ](#アーキテクチャ)
 - [🛠️ 開発](#開発)
-- [🗣️ テキスト読み上げ統合](#テキスト読み上げ統合)
+- [🗣️ 音声合成統合](#音声合成統合)
 - [📚 例](#例)
-- [❓ よくある質問](#よくある質問)
+- [❓ FAQ](#faq)
 - [📜 ライセンス](#ライセンス)
 - [💖 謝辞](#謝辞)
 - [⭐ スター履歴](#スター履歴)
 
 ## クイックスタート
 
-DeerFlow は Python で開発され、Node.js で書かれた Web UI が付属しています。スムーズなセットアッププロセスを確保するために、以下のツールの使用をお勧めします：
+DataNovaはPythonで開発され、Node.jsで書かれたWeb UIを備えています。スムーズなセットアッププロセスを確保するために、以下のツールの使用を推奨します：
 
 ### 推奨ツール
 
 - **[`uv`](https://docs.astral.sh/uv/getting-started/installation/):**
-  Python 環境と依存関係の管理を簡素化します。`uv`はルートディレクトリに自動的に仮想環境を作成し、必要なパッケージをすべてインストールします—Python 環境を手動でインストールする必要はありません。
+  Python環境と依存関係管理を簡素化します。`uv`はルートディレクトリに仮想環境を自動的に作成し、必要なすべてのパッケージをインストールします—Python環境を手動でインストールする必要はありません。
 
 - **[`nvm`](https://github.com/nvm-sh/nvm):**
-  複数の Node.js ランタイムバージョンを簡単に管理します。
+  複数のNode.jsランタイムバージョンを簡単に管理できます。
 
 - **[`pnpm`](https://pnpm.io/installation):**
-  Node.js プロジェクトの依存関係をインストールおよび管理します。
+  Node.jsプロジェクトの依存関係をインストールおよび管理します。
 
 ### 環境要件
 
@@ -74,22 +74,22 @@ DeerFlow は Python で開発され、Node.js で書かれた Web UI が付属�
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/bytedance/deer-flow.git
-cd deer-flow
+git clone https://github.com/hszhsz/DataNova
+cd DataNova
 
-# 依存関係をインストール、uvがPythonインタープリタと仮想環境の作成、必要なパッケージのインストールを担当
+# 依存関係をインストール、uvがPythonインタープリターと仮想環境の作成を処理し、必要なパッケージをインストールします
 uv sync
 
-# APIキーで.envを設定
+# .envをAPIキーで設定
 # Tavily: https://app.tavily.com/home
 # Brave_SEARCH: https://brave.com/search/api/
-# 火山引擎TTS: TTSの資格情報がある場合は追加
+# 火山エンジンTTS: TTS認証情報がある場合は追加
 cp .env.example .env
 
-# 下記の「サポートされている検索エンジン」と「テキスト読み上げ統合」セクションですべての利用可能なオプションを確認
+# 以下の「サポートされている検索エンジン」と「音声合成統合」のセクションで利用可能なすべてのオプションを確認してください
 
-# LLMモデルとAPIキーのconf.yamlを設定
-# 詳細は「docs/configuration_guide.md」を参照
+# LLMモデルとAPIキーでconf.yamlを設定
+# 詳細は'docs/configuration_guide.md'を参照
 cp conf.yaml.example conf.yaml
 
 # PPT生成用にmarpをインストール
@@ -97,161 +97,190 @@ cp conf.yaml.example conf.yaml
 brew install marp-cli
 ```
 
-オプションで、[pnpm](https://pnpm.io/installation)を使用して Web UI 依存関係をインストール：
+オプションで、[pnpm](https://pnpm.io/installation)経由でWeb UIの依存関係をインストール：
 
 ```bash
-cd deer-flow/web
+cd DataNova/web
 pnpm install
 ```
 
 ### 設定
 
-詳細については[設定ガイド](docs/configuration_guide.md)を参照してください。
+詳細は[設定ガイド](docs/configuration_guide.md)を参照してください。
 
-> [!注意]
-> プロジェクトを開始する前に、ガイドを注意深く読み、特定の設定と要件に合わせて構成を更新してください。
+> [!NOTE]
+> プロジェクトを開始する前にガイドをよく読み、設定を特定の設定と要件に合わせて更新してください。
 
-### コンソール UI
+### コンソールUI
 
-プロジェクトを実行する最も迅速な方法は、コンソール UI を使用することです。
+プロジェクトを実行する最も速い方法はコンソールUIを使用することです。
 
 ```bash
-# bashライクなシェルでプロジェクトを実行
+# bash-likeシェルでプロジェクトを実行
 uv run main.py
 ```
 
 ### Web UI
 
-このプロジェクトには Web UI も含まれており、より動的で魅力的なインタラクティブ体験を提供します。
-
-> [!注意]
-> 先に Web UI の依存関係をインストールする必要があります。
+このプロジェクトには、より動的で魅力的なインタラクティブな体験を提供するWeb UIも含まれています。
+> [!NOTE]
+> まずWeb UIの依存関係をインストールする必要があります。
 
 ```bash
-# 開発モードでバックエンドとフロントエンドサーバーの両方を実行
-# macOS/Linuxの場合
+# 開発モードでバックエンドとフロントエンドのサーバーを同時に実行
+# macOS/Linux上
 ./bootstrap.sh -d
 
-# Windowsの場合
+# Windows上
 bootstrap.bat -d
 ```
 
-ブラウザを開き、[`http://localhost:3000`](http://localhost:3000)にアクセスして Web UI を探索してください。
+ブラウザを開いて[`http://localhost:3000`](http://localhost:3000)にアクセスしてWeb UIを探索してください。
 
-[`web`](./web/)ディレクトリで詳細を確認できます。
+[`web`](./web/)ディレクトリで詳細を探索してください。
 
 ## サポートされている検索エンジン
 
-DeerFlow は複数の検索エンジンをサポートしており、`.env`ファイルの`SEARCH_API`変数で設定できます：
+### パブリックドメイン検索エンジン
 
-- **Tavily**（デフォルト）：AI アプリケーション向けの専門検索 API
-  - `.env`ファイルに`TAVILY_API_KEY`が必要
-  - 登録先：<https://app.tavily.com/home>
+DataNovaは、`.env`ファイルの`SEARCH_API`変数で設定できる複数の検索エンジンをサポートしています：
+
+- **Tavily**（デフォルト）：AIアプリケーション用に設計されたプロフェッショナル検索API
+  - `.env`ファイルで`TAVILY_API_KEY`を設定する必要があります
+  - 登録アドレス：<https://app.tavily.com/home>
 
 - **DuckDuckGo**：プライバシー重視の検索エンジン
   - APIキー不要
 
-- **Brave Search**：高度な機能を備えたプライバシー重視の検索エンジン
-  - `.env`ファイルに`BRAVE_SEARCH_API_KEY`が必要
-  - 登録先：<https://brave.com/search/api/>
+- **Brave Search**：高度な機能を持つプライバシー重視の検索エンジン
+  - `.env`ファイルで`BRAVE_SEARCH_API_KEY`を設定する必要があります
+  - 登録アドレス：<https://brave.com/search/api/>
 
 - **Arxiv**：学術研究用の科学論文検索
   - APIキー不要
-  - 科学・学術論文専用
+  - 科学および学術論文用に特別に設計
 
-お好みの検索エンジンを設定するには、`.env`ファイルで`SEARCH_API`変数を設定します：
+お好みの検索エンジンを設定するには、`.env`ファイルで`SEARCH_API`変数を設定してください：
 
 ```bash
-# 選択肢: tavily, duckduckgo, brave_search, arxiv
+# 1つ選択：tavily, duckduckgo, brave_search, arxiv
 SEARCH_API=tavily
 ```
+
+### プライベート知識ベースエンジン
+
+DataNovaは、プライベートドメイン知識に基づく検索をサポートしています。データ分析中に使用するために、ドキュメントを複数のプライベート知識ベースにアップロードできます。現在サポートされているプライベート知識ベースは以下の通りです：
+
+- **[RAGFlow](https://ragflow.io/docs/dev/)**：検索強化生成に基づくオープンソース知識ベースエンジン
+   ```
+   # 設定については.env.exampleを参照
+   RAG_PROVIDER=ragflow
+   RAGFLOW_API_URL="http://localhost:9388"
+   RAGFLOW_API_KEY="ragflow-xxx"
+   RAGFLOW_RETRIEVAL_SIZE=10
+   ```
+
+- **[VikingDB 知識ベース](https://www.volcengine.com/docs/84313/1254457)**：火山エンジンが提供するパブリッククラウド知識ベースエンジン
+   > 注：まず[火山エンジン](https://www.volcengine.com/docs/84313/1254485)からアカウントAK/SKを取得してください
+   ```
+   # 設定については.env.exampleを参照
+   RAG_PROVIDER=vikingdb_knowledge_base
+   VIKINGDB_KNOWLEDGE_BASE_API_URL="api-knowledgebase.mlp.cn-beijing.volces.com"
+   VIKINGDB_KNOWLEDGE_BASE_API_AK="volcengine-ak-xxx"
+   VIKINGDB_KNOWLEDGE_BASE_API_SK="volcengine-sk-xxx"
+   VIKINGDB_KNOWLEDGE_BASE_RETRIEVAL_SIZE=15
+   ```
 
 ## 特徴
 
 ### コア機能
 
-- 🤖 **LLM統合**
+- 🤖 **AI駆動型データアーキテクチャ設計**
   - [litellm](https://docs.litellm.ai/docs/providers)を通じてほとんどのモデルの統合をサポート
   - Qwenなどのオープンソースモデルをサポート
-  - OpenAI互換のAPIインターフェース
-  - 異なるタスクの複雑さに対応するマルチティアLLMシステム
+  - OpenAI APIインターフェースと互換性あり
+  - 異なる複雑さのタスク用のマルチレイヤーLLMシステム
 
-### ツールと MCP 統合
+### データツールとMCP統合
 
-- 🔍 **検索と取得**
-  - Tavily、Brave Searchなどを通じたWeb検索
-  - Jinaを使用したクローリング
-  - 高度なコンテンツ抽出
+- 🔍 **データ探索と検索**
+  - Tavily、Brave Searchなどを通じたデータソース検索
+  - Jinaを使用したデータクローリング
+  - 高度なデータコンテンツ抽出
+  - 指定されたプライベート知識ベースの検索をサポート
+
+- 📃 **RAG統合**
+  - [RAGFlow](https://github.com/infiniflow/ragflow)知識ベースをサポート
+  - [VikingDB](https://www.volcengine.com/docs/84313/1254457)火山エンジン知識ベースをサポート
 
 - 🔗 **MCPシームレス統合**
-  - プライベートドメインアクセス、ナレッジグラフ、Webブラウジングなどの機能を拡張
-  - 多様な研究ツールと方法論の統合を促進
+  - データソースアクセス、データ品質チェック、クエリ最適化などの機能を拡張
+  - 多様なデータツールと方法論の統合を促進
 
-### 人間との協力
+### AI駆動型コラボレーション
 
-- 🧠 **人間参加型ループ**
-  - 自然言語を使用した研究計画の対話的修正をサポート
-  - 研究計画の自動承認をサポート
+- 🧠 **ヒューマンインザループ**
+  - 自然言語を使用したデータアーキテクチャ計画のインタラクティブな修正をサポート
+  - アーキテクチャ計画の自動承認をサポート
 
-- 📝 **レポート後編集**
-  - Notionライクなブロック編集をサポート
-  - AI支援による洗練、文の短縮、拡張などのAI改良を可能に
-  - [tiptap](https://tiptap.dev/)を活用
+- 📝 **データレポート事後編集**
+  - Notionのようなブロック編集をサポート
+  - AI最適化を許可、AI支援の推敲、文の短縮と拡張を含む
+  - [tiptap](https://tiptap.dev/)によって提供
 
 ### コンテンツ作成
 
 - 🎙️ **ポッドキャストとプレゼンテーション生成**
-  - AI駆動のポッドキャストスクリプト生成と音声合成
-  - シンプルなPowerPointプレゼンテーションの自動作成
-  - カスタマイズ可能なテンプレートで個別のコンテンツに対応
+  - AI駆動のポッドキャストスクリプト生成とオーディオ合成
+  - 単純なPowerPointプレゼンテーションの自動作成
+  - 個人的なコンテンツニーズを満たすカスタマイズ可能なテンプレート
 
 ## アーキテクチャ
 
-DeerFlow は、自動研究とコード分析のためのモジュラーなマルチエージェントシステムアーキテクチャを実装しています。システムは LangGraph 上に構築され、コンポーネントが明確に定義されたメッセージパッシングシステムを通じて通信する柔軟な状態ベースのワークフローを実現しています。
+DataNovaは、自動化されたデータウェアハウス開発とデータ分析用に設計されたモジュラー型マルチエージェントシステムアーキテクチャを実装しています。このシステムはLangGraph上に構築され、コンポーネントが明確に定義されたメッセージパッシングシステムを通じて通信する柔軟なステートベースのワークフローを実装しています。
 
 ![アーキテクチャ図](./assets/architecture.png)
 
-> [deerflow.tech](https://deerflow.tech/#multi-agent-architecture)でライブで確認できます
+> [datanova.tech](https://datanova.tech/#multi-agent-architecture)でライブデモを表示
 
-システムは以下のコンポーネントを含む合理化されたワークフローを採用しています：
+システムは、以下のコンポーネントで構成される効率的なワークフローを採用しています：
 
-1. **コーディネーター**：ワークフローのライフサイクルを管理するエントリーポイント
+1. **コーディネーター**：ワークフローのライフサイクルを管理するエントリポイント
 
-   - ユーザー入力に基づいて研究プロセスを開始
-   - 適切なタイミングでプランナーにタスクを委託
-   - ユーザーとシステム間の主要なインターフェースとして機能
+   - ユーザー入力に基づいてデータ分析プロセスを開始
+   - 適切なタイミングでプランナーにタスクを委任
+   - ユーザーとシステム間の主要インターフェースとして機能
 
-2. **プランナー**：タスク分解と計画のための戦略的コンポーネント
+2. **プランナー**：タスクの分解と計画に責任を持つ戦略的コンポーネント
 
-   - 研究目標を分析し、構造化された実行計画を作成
-   - 十分なコンテキストが利用可能か、さらなる研究が必要かを判断
-   - 研究フローを管理し、最終レポート生成のタイミングを決定
+   - データ分析目標を分析し、構造化された実行計画を作成
+   - 十分なコンテキストがあるか、またはより多くのデータ探索が必要かを判断
+   - データ分析プロセスを管理し、最終レポートの生成タイミングを決定
 
-3. **研究チーム**：計画を実行する専門エージェントの集合：
+3. **データ分析チーム**：計画を実行する専門エージェントのコレクション：
+   - **データアナリスト**：データ検索エンジン、クローラー、MCPサービスなどのツールを使用してデータ検索と情報収集を実施。
+   - **データエンジニア**：Python REPLツールを使用してデータ処理、分析、技術タスクを処理。
+   各エージェントは、その役割に最適化された特定のツールにアクセスでき、LangGraphフレームワーク内で動作
 
-   - **研究者**：Web 検索エンジン、クローリング、さらには MCP サービスなどのツールを使用して Web 検索と情報収集を行う。
-   - **コーダー**：Python REPL ツールを使用してコード分析、実行、技術的タスクを処理する。
-     各エージェントは自分の役割に最適化された特定のツールにアクセスでき、LangGraph フレームワーク内で動作する
+4. **レポーター**：データ分析出力の最終段階プロセッサ
+   - データ分析チームからの発見を集約
+   - 収集された情報を処理および整理
+   - 包括的なデータ分析レポートを生成
 
-4. **レポーター**：研究出力の最終段階プロセッサ
-   - 研究チームの調査結果を集約
-   - 収集した情報を処理および構造化
-   - 包括的な研究レポートを生成
+## 音声合成統合
 
-## テキスト読み上げ統合
-
-DeerFlowには現在、研究レポートを音声に変換できるテキスト読み上げ（TTS）機能が含まれています。この機能は火山引擎TTS APIを使用して高品質なテキストオーディオを生成します。速度、音量、ピッチなどの特性もカスタマイズ可能です。
+DataNovaには、研究レポートを音声に変換できる音声合成（TTS）機能が含まれています。この機能は火山エンジンTTS APIを使用して高品質なテキストオーディオを生成します。速度、音量、ピッチなどの特性もカスタマイズできます。
 
 ### TTS APIの使用
 
-`/api/tts`エンドポイントからTTS機能にアクセスできます：
+`/api/tts`エンドポイントを通じてTTS機能にアクセスできます：
 
 ```bash
 # curlを使用したAPI呼び出し例
 curl --location 'http://localhost:8000/api/tts' \
 --header 'Content-Type: application/json' \
 --data '{
-    "text": "これはテキスト読み上げ機能のテストです。",
+    "text": "これは音声合成機能のテストです。",
     "speed_ratio": 1.0,
     "volume_ratio": 1.0,
     "pitch_ratio": 1.0
@@ -263,7 +292,7 @@ curl --location 'http://localhost:8000/api/tts' \
 
 ### テスト
 
-テストスイートの実行：
+テストスイートを実行：
 
 ```bash
 # すべてのテストを実行
@@ -279,28 +308,28 @@ make coverage
 ### コード品質
 
 ```bash
-# コードチェックを実行
+# コードリントを実行
 make lint
 
 # コードをフォーマット
 make format
 ```
 
-### LangGraph Studio によるデバッグ
+### LangGraph Studioでのデバッグ
 
-DeerFlow はワークフローアーキテクチャとして LangGraph を使用しています。LangGraph Studio を使用してワークフローをリアルタイムでデバッグおよび可視化できます。
+DataNovaはワークフローアーキテクチャとしてLangGraphを使用しています。LangGraph Studioを使用して、ワークフローをリアルタイムでデバッグおよび視覚化できます。
 
-#### ローカルで LangGraph Studio を実行
+#### ローカルでのLangGraph Studio実行
 
-DeerFlow には`langgraph.json`設定ファイルが含まれており、これが LangGraph Studio のグラフ構造と依存関係を定義しています。このファイルはプロジェクトで定義されたワークフローグラフを指し、`.env`ファイルから環境変数を自動的に読み込みます。
+DataNovaには、LangGraph Studioのグラフ構造と依存関係を定義する`langgraph.json`設定ファイルが含まれています。このファイルはプロジェクトで定義されたワークフローグラフを指し、`.env`ファイルから環境変数を自動的にロードします。
 
 ##### Mac
 
 ```bash
-# uvパッケージマネージャがない場合はインストール
+# uvパッケージマネージャーがない場合はインストール
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# 依存関係をインストールしLangGraphサーバーを開始
+# 依存関係をインストールし、LangGraphサーバーを起動
 uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.12 langgraph dev --allow-blocking
 ```
 
@@ -311,44 +340,40 @@ uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.12 lang
 pip install -e .
 pip install -U "langgraph-cli[inmem]"
 
-# LangGraphサーバーを開始
+# LangGraphサーバーを起動
 langgraph dev
 ```
 
-LangGraphサーバーを開始すると、端末にいくつかのURLが表示されます：
+LangGraphサーバーを起動した後、ターミナルにいくつかのURLが表示されます：
 
 - API: <http://127.0.0.1:2024>
 - Studio UI: <https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024>
-- APIドキュメント: <http://127.0.0.1:2024/docs>
+- APIドキュメント：<http://127.0.0.1:2024/docs>
 
-- API: <http://127.0.0.1:2024>
-- Studio UI: <https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024>
-- APIドキュメント: <http://127.0.0.1:2024/docs>
+ブラウザでStudio UIリンクを開いて、デバッグインターフェースにアクセスしてください。
 
-ブラウザで Studio UI リンクを開いてデバッグインターフェースにアクセスします。
+#### LangGraph Studioの使用
 
-#### LangGraph Studio の使用
+Studio UIでは、以下が可能です：
 
-Studio UI では、次のことができます：
-
-1. ワークフローグラフを可視化し、コンポーネントの接続方法を確認
-2. 実行をリアルタイムで追跡し、データがシステム内をどのように流れるかを理解
-3. ワークフローの各ステップの状態を検査
+1. ワークフローグラフを視覚化し、コンポーネントの接続方法を確認
+2. 実行をリアルタイムで追跡し、システムを通じたデータの流れを理解
+3. ワークフローの各ステップのステータスを検査
 4. 各コンポーネントの入力と出力を検査して問題をデバッグ
 5. 計画段階でフィードバックを提供して研究計画を洗練
 
-Studio UIで研究トピックを送信すると、次を含む全ワークフロー実行プロセスを見ることができます：
+Studio UIでデータ分析トピックを送信すると、ワークフローの実行プロセス全体を見ることができます：
 
-- 研究計画を作成する計画段階
+- データ分析計画が作成される計画段階
 - 計画を修正できるフィードバックループ
-- 各セクションの研究と執筆段階
+- 各セクションのデータ分析段階
 - 最終レポート生成
 
-### LangSmith トレースの有効化
+### LangSmithトレースの有効化
 
-DeerFlow は LangSmith トレース機能をサポートしており、ワークフローのデバッグとモニタリングに役立ちます。LangSmith トレースを有効にするには：
+DataNovaは、ワークフローのデバッグと監視に役立つLangSmithトレース機能をサポートしています。LangSmithトレースを有効にするには：
 
-1. `.env` ファイルに次の設定があることを確認してください（`.env.example` を参照）：
+1. `.env`ファイルに以下の設定があることを確認（`.env.example`を参照）：
 
    ```bash
    LANGSMITH_TRACING=true
@@ -357,40 +382,40 @@ DeerFlow は LangSmith トレース機能をサポートしており、ワーク
    LANGSMITH_PROJECT="xxx"
    ```
 
-2. 次のコマンドを実行して LangSmith トレースを開始します：
+2. 以下を実行してローカルでLangSmithトレースを開始：
 
    ```bash
    langgraph dev
    ```
 
-これにより、LangGraph Studio でトレース可視化が有効になり、トレースがモニタリングと分析のために LangSmith に送信されます。
+これにより、LangGraph Studioでのトレース視覚化が有効になり、トレースがLangSmithに送信されて監視と分析が行われます。
 
 ## Docker
 
-このプロジェクトは Docker でも実行できます。
+Dockerを使用してこのプロジェクトを実行することもできます。
 
-まず、以下の[設定](#設定)セクションを読んでください。`.env`と`.conf.yaml`ファイルが準備できていることを確認してください。
+まず、以下の[設定](#configuration)セクションを読んでください。`.env`と`.conf.yaml`ファイルの準備ができていることを確認してください。
 
-次に、独自の Web サーバーの Docker イメージをビルドします：
+次に、独自のWebサーバーDockerイメージをビルド：
 
 ```bash
-docker build -t deer-flow-api .
+docker build -t datanova-api .
 ```
 
-最後に、Web サーバーを実行する Docker コンテナを起動します：
+最後に、Webサーバーを実行するDockerコンテナを開始：
 
 ```bash
-# deer-flow-api-appを希望のコンテナ名に置き換えてください
-# サーバーを起動してlocalhost:8000にバインド
-docker run -d -t -p 127.0.0.1:8000:8000 --env-file .env --name deer-flow-api-app deer-flow-api
+# datanova-api-appをお好みのコンテナ名に置き換え
+# サーバーを起動し、localhost:8000にバインド
+docker run -d -t -p 127.0.0.1:8000:8000 --env-file .env --name datanova-api-app datanova-api
 
 # サーバーを停止
-docker stop deer-flow-api-app
+docker stop datanova-api-app
 ```
 
 ### Docker Compose
 
-このプロジェクトは docker compose でも設定できます：
+docker composeを使用してこのプロジェクトをセットアップすることもできます：
 
 ```bash
 # dockerイメージをビルド
@@ -401,90 +426,61 @@ docker compose up
 ```
 
 > [!WARNING]
-> DeerFlow を本番環境にデプロイする場合は、ウェブサイトに認証を追加し、MCPServer と Python Repl のセキュリティチェックを評価してください。
-
-## テキスト読み上げ統合
-
-DeerFlow には現在、研究レポートを音声に変換できるテキスト読み上げ（TTS）機能が含まれています。この機能は火山引擎 TTS API を使用して高品質なテキストオーディオを生成します。速度、音量、ピッチなどの特性もカスタマイズ可能です。
-
-### TTS API の使用
-
-`/api/tts`エンドポイントから TTS 機能にアクセスできます：
-
-```bash
-# curlを使用したAPI呼び出し例
-curl --location 'http://localhost:8000/api/tts' \
---header 'Content-Type: application/json' \
---data '{
-    "text": "これはテキスト読み上げ機能のテストです。",
-    "speed_ratio": 1.0,
-    "volume_ratio": 1.0,
-    "pitch_ratio": 1.0
-}' \
---output speech.mp3
-```
+> DataNovaを本番環境にデプロイする場合は、ウェブサイトに認証を追加し、MCPServerとPython Replのセキュリティチェックを評価してください。
 
 ## 例
 
-以下の例は DeerFlow の機能を示しています：
+以下の例は、DataNovaの機能を示しています：
 
-### 研究レポート
+### データ分析レポート
 
-1. **OpenAI Sora レポート** - OpenAI の Sora AI ツールの分析
+1. **eコマースデータウェアハウス設計** - eコマース分析用データウェアハウスのスター型スキーマ設計
+   - ファクトテーブル、ディメンションテーブル設計、データモデリングのベストプラクティスについて説明
+   - [完全なレポートを表示](examples/ecommerce_data_warehouse_design.md)
 
-   - 機能、アクセス方法、プロンプトエンジニアリング、制限、倫理的考慮について議論
-   - [完全なレポートを見る](examples/openai_sora_report.md)
+2. **SQLクエリ最適化戦略** - 大規模データセットのSQLクエリパフォーマンス最適化
+   - インデックス戦略、クエリ書き換え、コスト最適化技術について探求
+   - [完全なレポートを表示](examples/sql_query_optimization.md)
 
-2. **Google の Agent to Agent プロトコルレポート** - Google の Agent to Agent（A2A）プロトコルの概要
+3. **リアルタイムデータパイプライン構築** - 現代のストリーミング技術を使用したリアルタイムデータパイプラインの構築
+   - Kafka、Spark Streaming、リアルタイムデータ処理アーキテクチャについて研究
+   - [完全なレポートを表示](examples/realtime_data_pipeline.md)
 
-   - AI エージェント通信における役割と、Anthropic の Model Context Protocol（MCP）との関係について議論
-   - [完全なレポートを見る](examples/what_is_agent_to_agent_protocol.md)
+4. **データ品質監視フレームワーク** - 自動化されたデータ品質チェックと監視の実装
+   - データ品質メトリクス、異常検出、自動修復戦略について探求
+   - [完全なレポートを表示](examples/data_quality_monitoring.md)
 
-3. **MCP とは何か？** - 複数のコンテキストにおける「MCP」という用語の包括的分析
+5. **LLMとは？** - 大規模言語モデルの詳細な探求
+   - アーキテクチャ、トレーニング、アプリケーション、倫理的考慮について議論
+   - [完全なレポートを表示](examples/what_is_llm.md)
 
-   - AI における Model Context Protocol、化学における Monocalcium Phosphate、電子工学における Micro-channel Plate を探る
-   - [完全なレポートを見る](examples/what_is_mcp.md)
+6. **Claudeを使用した深度研究の方法？** - 深度研究でClaudeを使用するためのベストプラクティスとワークフロー
+   - プロンプトエンジニアリング、データ分析、他のツールとの統合についてカバー
+   - [完全なレポートを表示](examples/how_to_use_claude_deep_research.md)
 
-4. **ビットコイン価格変動** - 最近のビットコイン価格動向の分析
+7. **医療におけるAI採用：影響要因** - 医療におけるAI採用の影響要因の分析
+   - AI技術、データ品質、倫理的考慮、経済評価、組織準備度、デジタルインフラについて議論
+   - [完全なレポートを表示](examples/AI_adoption_in_healthcare.md)
 
-   - 市場動向、規制の影響、テクニカル指標の調査
-   - 歴史的データに基づく提言
-   - [完全なレポートを見る](examples/bitcoin_price_fluctuation.md)
+8. **量子コンピューティングが暗号に与える影響** - 量子コンピューティングが暗号に与える影響の分析
 
-5. **LLM とは何か？** - 大規模言語モデルの詳細な探求
-
-   - アーキテクチャ、トレーニング、応用、倫理的考慮について議論
-   - [完全なレポートを見る](examples/what_is_llm.md)
-
-6. **Claude を使った深層研究の方法は？** - 深層研究での Claude の使用に関するベストプラクティスとワークフロー
-
-   - プロンプトエンジニアリング、データ分析、他のツールとの統合
-   - [完全なレポートを見る](examples/how_to_use_claude_deep_research.md)
-
-7. **医療における AI 採用：影響要因** - 医療における AI 採用に影響する要因の分析
-
-   - AI テクノロジー、データ品質、倫理的考慮、経済的評価、組織の準備状況、デジタルインフラについて議論
-   - [完全なレポートを見る](examples/AI_adoption_in_healthcare.md)
-
-8. **量子コンピューティングの暗号学への影響** - 量子コンピューティングの暗号学への影響の分析
-
-   - 古典的暗号の脆弱性、ポスト量子暗号学、耐量子暗号ソリューションについて議論
-   - [完全なレポートを見る](examples/Quantum_Computing_Impact_on_Cryptography.md)
+   - 従来の暗号の脆弱性、ポスト量子暗号、量子耐性暗号ソリューションについて議論
+   - [完全なレポートを表示](examples/Quantum_Computing_Impact_on_Cryptography.md)
 
 9. **クリスティアーノ・ロナウドのパフォーマンスハイライト** - クリスティアーノ・ロナウドのパフォーマンスハイライトの分析
-   - 彼のキャリア達成、国際ゴール、さまざまな大会でのパフォーマンスについて議論
-   - [完全なレポートを見る](examples/Cristiano_Ronaldo's_Performance_Highlights.md)
+   - 彼のキャリアの成果、国際的なゴール、様々な競技でのパフォーマンスについて議論
+   - [完全なレポートを表示](examples/Cristiano_Ronaldo's_Performance_Highlights.md)
 
-これらの例を実行したり、独自の研究レポートを作成したりするには、次のコマンドを使用できます：
+これらの例を実行するか、独自の研究レポートを作成するには、以下のコマンドを使用できます：
 
 ```bash
 # 特定のクエリで実行
-uv run main.py "医療におけるAI採用に影響する要因は何か？"
+uv run main.py "eコマース分析用データウェアハウスアーキテクチャを設計"
 
 # カスタム計画パラメータで実行
-uv run main.py --max_plan_iterations 3 "量子コンピューティングは暗号学にどのように影響するか？"
+uv run main.py --max_plan_iterations 3 "複雑なSQLクエリのパフォーマンスを最適化する方法？"
 
-# 組み込み質問を使用したインタラクティブモードで実行
+# 組み込み質問でインタラクティブモードで実行
 uv run main.py --interactive
 
 # または基本的なインタラクティブプロンプトで実行
@@ -496,7 +492,7 @@ uv run main.py --help
 
 ### インタラクティブモード
 
-アプリケーションは現在、英語と中国語の組み込み質問を使用したインタラクティブモードをサポートしています：
+DataNovaは、データウェアハウス開発シナリオに特化して調整された英語と中国語の組み込み質問を備えたインタラクティブモードをサポートしています：
 
 1. インタラクティブモードを開始：
 
@@ -504,77 +500,76 @@ uv run main.py --help
    uv run main.py --interactive
    ```
 
-2. 好みの言語（English または Chinese）を選択
+2. お好みの言語（英語または中国語）を選択
 
-3. 組み込み質問リストから選択するか、独自の質問を提示するオプションを選択
+3. 組み込みのデータウェアハウス質問リストから選択するか、独自の質問をするオプションを選択
 
-4. システムが質問を処理し、包括的な研究レポートを生成
+4. システムが質問を処理し、包括的なデータ分析レポートを生成
 
-### 人間参加型ループ
+### ヒューマンインザループ
 
-DeerFlow には人間参加型ループメカニズムが含まれており、研究計画を実行する前にレビュー、編集、承認することができます：
+DataNovaには、データ分析計画を実行する前にレビュー、編集、承認できるヒューマンインザループメカニズムが含まれています：
 
-1. **計画レビュー**：人間参加型ループが有効な場合、システムは実行前に生成された研究計画を表示
+1. **計画レビュー**：ヒューマンインザループが有効になっている場合、システムは実行前に生成されたデータ分析計画を表示
 
-2. **フィードバック提供**：次のことができます：
+2. **フィードバックの提供**：以下が可能です：
 
    - `[ACCEPTED]`と返信して計画を承認
-   - フィードバックを提供して計画を編集（例：`[EDIT PLAN] 技術実装に関するステップをさらに追加する`）
-   - システムはフィードバックを統合し、修正された計画を生成
+   - フィードバックを提供して計画を編集（例：`[EDIT PLAN] データ品質チェックのステップをさらに追加`）
+   - システムはフィードバックを組み込み、改訂された計画を生成
 
 3. **自動承認**：レビュープロセスをスキップするために自動承認を有効にできます：
+   - API経由：リクエストで`auto_accepted_plan: true`を設定
 
-4. **API統合**：APIを使用する場合、`feedback`パラメータでフィードバックを提供できます：
+4. **API統合**：APIを使用する場合、`feedback`パラメータを通じてフィードバックを提供できます：
 
    ```json
    {
-     "messages": [
-       { "role": "user", "content": "量子コンピューティングとは何ですか？" }
-     ],
+     "messages": [{ "role": "user", "content": "eコマースデータウェアハウスアーキテクチャを設計" }],
      "thread_id": "my_thread_id",
      "auto_accepted_plan": false,
-     "feedback": "[EDIT PLAN] 量子アルゴリズムについてもっと含める"
+     "feedback": "[EDIT PLAN] リアルタイムデータ処理に関するコンテンツをさらに含める"
    }
    ```
 
 ### コマンドライン引数
 
-アプリケーションは動作をカスタマイズするための複数のコマンドライン引数をサポートしています：
+DataNovaは、動作をカスタマイズするための複数のコマンドライン引数をサポートしています：
 
-- **query**：処理する研究クエリ（複数の単語でも可）
-- **--interactive**：組み込み質問を使用したインタラクティブモードで実行
-- **--max_plan_iterations**：最大計画サイクル数（デフォルト：1）
-- **--max_step_num**：研究計画の最大ステップ数（デフォルト：3）
+- **query**：処理するデータ分析クエリ（複数の単語が可能）
+- **--interactive**：組み込み質問でインタラクティブモードで実行
+- **--max_plan_iterations**：計画サイクルの最大数（デフォルト：1）
+- **--max_step_num**：データ分析計画の最大ステップ数（デフォルト：3）
 - **--debug**：詳細なデバッグログを有効化
 
-## よくある質問
+## FAQ
 
-詳細については[FAQ.md](docs/FAQ.md)を参照してください。
+詳細は[FAQ.md](docs/FAQ.md)を参照してください。
 
 ## ライセンス
 
-このプロジェクトはオープンソースであり、[MIT ライセンス](./LICENSE)に従っています。
+このプロジェクトは[MITライセンス](./LICENSE)の下でオープンソースです。
 
 ## 謝辞
 
-DeerFlow はオープンソースコミュニティの素晴らしい成果の上に構築されています。DeerFlow を可能にしたすべてのプロジェクトと貢献者に深く感謝します。私たちは確かに巨人の肩の上に立っています。
+DataNovaは、オープンソースコミュニティの優れた仕事に基づいて構築されています。DataNovaを可能にしたすべてのプロジェクトと貢献者に深く感謝します。確かに、私たちは巨人の肩の上に立っています。
 
-以下のプロジェクトに心からの感謝を表します：
+以下のプロジェクトに、価値ある貢献に対して心から感謝を表します：
 
-- **[LangChain](https://github.com/langchain-ai/langchain)**：彼らの優れたフレームワークは、シームレスな統合と機能性を実現する LLM 相互作用とチェーンに力を与えています。
-- **[LangGraph](https://github.com/langchain-ai/langgraph)**：マルチエージェントオーケストレーションへの革新的アプローチは、DeerFlow の複雑なワークフローの実現に不可欠でした。
+- **[LangChain](https://github.com/langchain-ai/langchain)**：彼らの優れたフレームワークが私たちのLLMインタラクションとチェーンを動かし、シームレスな統合と機能を可能にしています。
+- **[LangGraph](https://github.com/langchain-ai/langgraph)**：彼らのマルチエージェントオーケストレーションへの革新的なアプローチは、DataNovaの複雑なワークフローの実装に不可欠です。
 
-これらのプロジェクトはオープンソースコラボレーションの変革力を示しており、その基盤の上に構築できることを誇りに思います。
+これらのプロジェクトは、オープンソースコラボレーションの変革的な力を示しており、その基盤の上に構築できることを誇りに思っています。
 
-### 主要貢献者
+### コア貢献者
 
-`DeerFlow`の主要な作者に心から感謝します。彼らのビジョン、情熱、献身がこのプロジェクトを実現しました：
+`DataNova`のコア著者である以下の皆さんに、そのビジョン、情熱、献身によりこのプロジェクトを可能にしたことに心から感謝を表します：
 
 - **[Daniel Walnut](https://github.com/hetaoBackend/)**
 - **[Henry Li](https://github.com/magiccube/)**
 
-あなたの揺るぎない取り組みと専門知識が DeerFlow の成功を推進しています。この旅をリードしていただき光栄です。
+皆さんの揺るぎないコミットメントと専門知識は、DataNovaの成功の原動力です。この旅をリードしていただき、光栄です。
 
 ## スター履歴
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bytedance/deer-flow&type=Date)](https://star-history.com/#bytedance/deer-flow&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=hszhsz/DataNova&type=Date)](https://star-history.com/#hszhsz/DataNova&Date)

@@ -74,7 +74,7 @@ DataNova 使用 Python 开发，并配有用 Node.js 编写的 Web UI。为确�
 
 ```bash
 # 克隆仓库
-git clone https://github.com/bytedance/DataNova.git
+git clone https://github.com/hszhsz/DataNova.git
 cd DataNova
 
 # 安装依赖，uv将负责Python解释器和虚拟环境的创建，并安装所需的包
@@ -100,7 +100,7 @@ brew install marp-cli
 可选，通过[pnpm](https://pnpm.io/installation)安装 Web UI 依赖：
 
 ```bash
-cd deer-flow/web
+cd DataNova/web
 pnpm install
 ```
 
@@ -399,18 +399,18 @@ DataNova 支持 LangSmith 追踪功能，帮助您调试和监控工作流。要
 其次，构建您自己的 Web 服务器 Docker 镜像：
 
 ```bash
-docker build -t deer-flow-api .
+docker build -t datanova-api .
 ```
 
 最后，启动运行 Web 服务器的 Docker 容器：
 
 ```bash
-# 将deer-flow-api-app替换为您首选的容器名称
+# 将datanova-api-app替换为您首选的容器名称
 # 启动服务器并绑定到localhost:8000
-docker run -d -t -p 127.0.0.1:8000:8000 --env-file .env --name deer-flow-api-app deer-flow-api
+docker run -d -t -p 127.0.0.1:8000:8000 --env-file .env --name datanova-api-app datanova-api
 
 # 停止服务器
-docker stop deer-flow-api-app
+docker stop datanova-api-app
 ```
 
 ### Docker Compose
@@ -593,4 +593,4 @@ DataNova 建立在开源社区的杰出工作基础之上。我们深深感谢�
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=bytedance/DataNova&type=Date)](https://star-history.com/#bytedance/DataNova&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=hszhsz/DataNova&type=Date)](https://star-history.com/#hszhsz/DataNova&Date)

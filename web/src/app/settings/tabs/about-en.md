@@ -1,4 +1,4 @@
-# 🚀 [About DataNova](https://github.com/bytedance/DataNova)
+# 🚀 [About DataNova](https://github.com/hszhsz/DataNova)
 
 > **Revolutionizing Data Warehouse Development with AI**
 
@@ -8,7 +8,7 @@
 
 ## 🌟 GitHub Repository
 
-Explore DataNova on GitHub: [github.com/bytedance/DataNova](https://github.com/bytedance/DataNova)
+Explore DataNova on GitHub: [github.com/hszhsz/DataNova](https://github.com/hszhsz/DataNova)
 
 ---
 

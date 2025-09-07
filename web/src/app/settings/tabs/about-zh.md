@@ -1,4 +1,4 @@
-# 🚀 [关于 DataNova](https://github.com/bytedance/DataNova)
+# 🚀 [关于 DataNova](https://github.com/hszhsz/DataNova)
 
 > **用 AI 智能革新数据仓库开发**
 
@@ -8,7 +8,7 @@
 
 ## 🌟 GitHub 仓库
 
-在 GitHub 上探索 DataNova：[github.com/bytedance/DataNova](https://github.com/bytedance/DataNova)
+在 GitHub 上探索 DataNova：[github.com/hszhsz/DataNova](https://github.com/hszhsz/DataNova)
 
 ---
 
