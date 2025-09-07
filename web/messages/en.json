@@ -16,21 +16,21 @@
     "placeholderWithRag": "What can I do for you? \nYou may refer to RAG resources by using @."
   },
   "header": {
-    "title": "DeerFlow"
+    "title": "DataNova"
   },
   "hero": {
-    "title": "Deep Research",
-    "subtitle": "at Your Fingertips",
-    "description": "Meet DeerFlow, your personal Deep Research assistant. With powerful tools like search engines, web crawlers, Python and MCP services, it delivers instant insights, comprehensive reports, and even captivating podcasts.",
-    "footnote": "* DEER stands for Deep Exploration and Efficient Research."
+    "title": "AI-Powered Data Warehouse",
+    "subtitle": "Development Platform",
+    "description": "Meet DataNova, your intelligent data warehouse development platform. Powered by large language models and AI agents, it transforms how you build, manage, and analyze data warehouses with automated insights and intelligent recommendations.",
+    "footnote": "* Empowering data teams with AI-driven intelligence."
   },
   "settings": {
-    "title": "DeerFlow Settings",
-    "description": "Manage your DeerFlow settings here.",
+    "title": "DataNova Settings",
+    "description": "Manage your DataNova settings here.",
     "addServers": "Add Servers",
     "cancel": "Cancel",
     "addNewMCPServers": "Add New MCP Servers",
-    "mcpConfigDescription": "DeerFlow uses the standard JSON MCP config to create a new server.",
+    "mcpConfigDescription": "DataNova uses the standard JSON MCP config to create a new server.",
     "pasteConfigBelow": "Paste your config below and click \"Add\" to add new servers.",
     "add": "Add",
     "general": {
@@ -45,7 +45,7 @@
     },
     "mcp": {
       "title": "MCP Servers",
-      "description": "The Model Context Protocol boosts DeerFlow by integrating external tools for tasks like private domain searches, web browsing, food ordering, and more. Click here to",
+      "description": "The Model Context Protocol boosts DataNova by integrating external tools for data pipeline management, schema analysis, query optimization, and more. Click here to",
       "learnMore": "learn more about MCP.",
       "enableDisable": "Enable/disable server",
       "deleteServer": "Delete server",
@@ -70,45 +70,45 @@
     }
   },
   "footer": {
-    "quote": "Originated from Open Source, give back to Open Source.",
+    "quote": "Revolutionizing data warehouse development with AI intelligence.",
     "license": "Licensed under MIT License",
-    "copyright": "DeerFlow"
+    "copyright": "DataNova"
   },
   "chat": {
     "page": {
-        "loading": "Loading DeerFlow...",
+        "loading": "Loading DataNova...",
         "welcomeUser": "Welcome, {username}",
-        "starOnGitHub": "Star DeerFlow on GitHub"
+        "starOnGitHub": "Star DataNova on GitHub"
     },
     "welcome": {
       "greeting": "👋 Hello, there!",
-      "description": "Welcome to 🦌 DeerFlow, a deep research assistant built on cutting-edge language models, helps you search on web, browse information, and handle complex tasks."
+      "description": "Welcome to 🚀 DataNova, an AI-powered data warehouse development platform built on cutting-edge language models, helps you design schemas, optimize queries, and build intelligent data pipelines."
     },
     "conversationStarters": [
-      "How many times taller is the Eiffel Tower than the tallest building in the world?",
-      "How many years does an average Tesla battery last compared to a gasoline engine?",
-      "How many liters of water are required to produce 1 kg of beef?",
-      "How many times faster is the speed of light compared to the speed of sound?"
+      "Design a star schema for an e-commerce analytics data warehouse",
+      "Optimize this SQL query for better performance in my data warehouse",
+      "Create a data pipeline to process streaming transaction data",
+      "Analyze data quality issues and suggest remediation strategies"
     ],
     "inputBox": {
       "deepThinking": "Deep Thinking",
       "deepThinkingTooltip": {
-        "title": "Deep Thinking Mode: {status}",
-        "description": "When enabled, DeerFlow will use reasoning model ({model}) to generate more thoughtful plans."
+        "title": "Deep Analysis Mode: {status}",
+        "description": "When enabled, DataNova will use reasoning model ({model}) to generate more thoughtful data architecture plans."
       },
       "investigation": "Investigation",
       "investigationTooltip": {
-        "title": "Investigation Mode: {status}",
-        "description": "When enabled, DeerFlow will perform a quick search before planning. This is useful for researches related to ongoing events and news."
+        "title": "Data Discovery Mode: {status}",
+        "description": "When enabled, DataNova will perform a quick analysis of your data sources before planning. This is useful for understanding data patterns and relationships."
       },
       "enhancePrompt": "Enhance prompt with AI",
       "on": "On",
       "off": "Off"
     },
     "research": {
-      "deepResearch": "Deep Research",
-      "researching": "Researching...",
-      "generatingReport": "Generating report...",
+      "deepResearch": "Data Analysis",
+      "researching": "Analyzing data...",
+      "generatingReport": "Generating analysis report...",
       "reportGenerated": "Report generated",
       "open": "Open",
       "close": "Close",
@@ -134,9 +134,9 @@
     },
     "messages": {
       "replaying": "Replaying",
-      "replayDescription": "DeerFlow is now replaying the conversation...",
+      "replayDescription": "DataNova is now replaying the conversation...",
       "replayHasStopped": "The replay has been stopped.",
-      "replayModeDescription": "You're now in DeerFlow's replay mode. Click the \"Play\" button on the right to start.",
+      "replayModeDescription": "You're now in DataNova's replay mode. Click the \"Play\" button on the right to start.",
       "play": "Play",
       "fastForward": "Fast Forward",
       "demoNotice": "* This site is for demo purposes only. If you want to try your own question, please",
@@ -153,76 +153,76 @@
   "landing": {
     "caseStudies": {
       "title": "Case Studies",
-      "description": "See DeerFlow in action through replays.",
-      "clickToWatch": "Click to watch replay",
+      "description": "See DataNova in action through data warehouse development scenarios.",
+      "clickToWatch": "Click to explore scenario",
       "cases": [
         {
-          "title": "How tall is Eiffel Tower compared to tallest building?",
-          "description": "The research compares the heights and global significance of the Eiffel Tower and Burj Khalifa, and uses Python code to calculate the multiples."
+          "title": "Design an e-commerce analytics data warehouse schema",
+          "description": "The analysis demonstrates how to create a star schema for e-commerce analytics with proper fact and dimension tables."
         },
         {
-          "title": "What are the top trending repositories on GitHub?",
-          "description": "The research utilized MCP services to identify the most popular GitHub repositories and documented them in detail using search engines."
+          "title": "Optimize SQL query performance for large datasets",
+          "description": "The study shows various techniques to improve query performance including indexing strategies and query rewriting."
         },
         {
-          "title": "Write an article about Nanjing's traditional dishes",
-          "description": "The study vividly showcases Nanjing's famous dishes through rich content and imagery, uncovering their hidden histories and cultural significance."
+          "title": "Build a real-time data pipeline for streaming data",
+          "description": "The research provides a comprehensive guide on setting up real-time data pipelines using modern streaming technologies."
         },
         {
-          "title": "How to decorate a small rental apartment?",
-          "description": "The study provides readers with practical and straightforward methods for decorating apartments, accompanied by inspiring images."
+          "title": "Implement data quality monitoring and alerts",
+          "description": "The study demonstrates how to set up automated data quality checks and alerting systems for data warehouses."
         },
         {
-          "title": "Introduce the movie 'Léon: The Professional'",
-          "description": "The research provides a comprehensive introduction to the movie 'Léon: The Professional', including its plot, characters, and themes."
+          "title": "Design a data governance framework",
+          "description": "The analysis provides a detailed framework for implementing data governance policies and procedures."
         },
         {
-          "title": "How do you view the takeaway war in China? (in Chinese)",
-          "description": "The research analyzes the intensifying competition between JD and Meituan, highlighting their strategies, technological innovations, and challenges."
+          "title": "Migrate legacy data warehouse to modern cloud platform",
+          "description": "The research outlines strategies and best practices for migrating from traditional data warehouses to cloud-native solutions."
         },
         {
-          "title": "Are ultra-processed foods linked to health?",
-          "description": "The research examines the health risks of rising ultra-processed food consumption, urging more research on long-term effects and individual differences."
+          "title": "Implement dimensional modeling for financial reporting",
+          "description": "The study shows how to design and implement dimensional models specifically for financial reporting requirements."
         },
         {
-          "title": "Write an article on \"Would you insure your AI twin?\"",
-          "description": "The research explores the concept of insuring AI twins, highlighting their benefits, risks, ethical considerations, and the evolving regulatory."
+          "title": "Set up automated data testing and validation pipelines",
+          "description": "The research demonstrates how to implement comprehensive data testing frameworks to ensure data reliability."
         }
       ]
     },
     "coreFeatures": {
       "title": "Core Features",
-      "description": "Find out what makes DeerFlow effective.",
+      "description": "Discover what makes DataNova the ultimate data warehouse development platform.",
       "features": [
         {
-          "name": "Dive Deeper and Reach Wider",
-          "description": "Unlock deeper insights with advanced tools. Our powerful search + crawling and Python tools gathers comprehensive data, delivering in-depth reports to enhance your study."
+          "name": "AI-Powered Schema Design",
+          "description": "Leverage AI to design optimal data warehouse schemas with automated recommendations for fact tables, dimensions, and relationships."
         },
         {
-          "name": "Human-in-the-loop",
-          "description": "Refine your research plan, or adjust focus areas all through simple natural language."
+          "name": "Intelligent Query Optimization",
+          "description": "Get AI-driven suggestions to optimize your SQL queries for better performance and reduced costs."
         },
         {
-          "name": "Lang Stack",
-          "description": "Build with confidence using the LangChain and LangGraph frameworks."
+          "name": "Automated Data Pipeline Generation",
+          "description": "Build robust data pipelines with AI assistance, from ETL processes to real-time streaming workflows."
         },
         {
-          "name": "MCP Integrations",
-          "description": "Supercharge your research workflow and expand your toolkit with seamless MCP integrations."
+          "name": "Smart Data Quality Monitoring",
+          "description": "Implement AI-powered data quality checks and anomaly detection to ensure data reliability and accuracy."
         },
         {
-          "name": "Podcast Generation",
-          "description": "Instantly generate podcasts from reports. Perfect for on-the-go learning or sharing findings effortlessly."
+          "name": "Collaborative Development Environment",
+          "description": "Work seamlessly with your team using integrated development tools and version control for data warehouse projects."
         }
       ]
     },
     "multiAgent": {
-      "title": "Multi-Agent Architecture",
-      "description": "Experience the agent teamwork with our Supervisor + Handoffs design pattern."
+      "title": "AI Agent Architecture",
+      "description": "Experience intelligent data warehouse development with our specialized AI agents working together."
     },
     "joinCommunity": {
-      "title": "Join the DeerFlow Community",
-      "description": "Contribute brilliant ideas to shape the future of DeerFlow. Collaborate, innovate, and make impacts.",
+      "title": "Join the DataNova Community",
+      "description": "Contribute to the future of AI-powered data warehouse development. Collaborate with data engineers and architects worldwide.",
       "contributeNow": "Contribute Now"
     }
   }

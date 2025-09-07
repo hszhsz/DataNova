@@ -15,9 +15,9 @@ import { env } from "~/env";
 import { Toaster } from "../components/deer-flow/toaster";
 
 export const metadata: Metadata = {
-  title: "🦌 DeerFlow",
+  title: "🚀 DataNova",
   description:
-    "Deep Exploration and Efficient Research, an AI tool that combines language models with specialized tools for research tasks.",
+    "AI-powered data warehouse development platform that combines large language models with specialized tools for intelligent data architecture design and optimization.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
