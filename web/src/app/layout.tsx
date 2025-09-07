@@ -9,10 +9,10 @@ import Script from "next/script";
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 
-import { ThemeProviderWrapper } from "~/components/deer-flow/theme-provider-wrapper";
+import { ThemeProviderWrapper } from "~/components/data-nova/theme-provider-wrapper";
 import { env } from "~/env";
 
-import { Toaster } from "../components/deer-flow/toaster";
+import { Toaster } from "../components/data-nova/toaster";
 
 export const metadata: Metadata = {
   title: "🚀 DataNova",

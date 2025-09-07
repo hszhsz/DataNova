@@ -11,9 +11,9 @@ import { Suspense } from "react";
 
 import { Button } from "~/components/ui/button";
 
-import { Logo } from "../../components/deer-flow/logo";
-import { ThemeToggle } from "../../components/deer-flow/theme-toggle";
-import { Tooltip } from "../../components/deer-flow/tooltip";
+import { Logo } from "../../components/data-nova/logo";
+import { ThemeToggle } from "../../components/data-nova/theme-toggle";
+import { Tooltip } from "../../components/data-nova/tooltip";
 import { SettingsDialog } from "../settings/dialogs/settings-dialog";
 
 const Main = dynamic(() => import("./main"), {

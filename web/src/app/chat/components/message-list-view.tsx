@@ -14,15 +14,15 @@ import {
 import { useTranslations } from "next-intl";
 import React, { useCallback, useMemo, useRef, useState } from "react";
 
-import { LoadingAnimation } from "~/components/deer-flow/loading-animation";
-import { Markdown } from "~/components/deer-flow/markdown";
-import { RainbowText } from "~/components/deer-flow/rainbow-text";
-import { RollingText } from "~/components/deer-flow/rolling-text";
+import { LoadingAnimation } from "~/components/data-nova/loading-animation";
+import { Markdown } from "~/components/data-nova/markdown";
+import { RainbowText } from "~/components/data-nova/rainbow-text";
+import { RollingText } from "~/components/data-nova/rolling-text";
 import {
   ScrollContainer,
   type ScrollContainerRef,
-} from "~/components/deer-flow/scroll-container";
-import { Tooltip } from "~/components/deer-flow/tooltip";
+} from "~/components/data-nova/scroll-container";
+import { Tooltip } from "~/components/data-nova/tooltip";
 import { Button } from "~/components/ui/button";
 import {
   Card,
