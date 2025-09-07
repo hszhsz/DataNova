@@ -15,10 +15,10 @@ import { env } from "~/env";
 import { Toaster } from "../components/data-nova/toaster";
 
 export const metadata: Metadata = {
-  title: "🚀 DataNova",
+  title: "DataNova",
   description:
     "AI-powered data warehouse development platform that combines large language models with specialized tools for intelligent data architecture design and optimization.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.svg" }],
 };
 
 const geist = Geist({

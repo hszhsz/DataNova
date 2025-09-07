@@ -82,7 +82,7 @@
     },
     "welcome": {
       "greeting": "👋 Hello, there!",
-      "description": "Welcome to 🚀 DataNova, an AI-powered data warehouse development platform built on cutting-edge language models, helps you design schemas, optimize queries, and build intelligent data pipelines."
+      "description": "Welcome to DataNova, an AI-powered data warehouse development platform built on cutting-edge language models, helps you design schemas, optimize queries, and build intelligent data pipelines."
     },
     "conversationStarters": [
       "Design a star schema for an e-commerce analytics data warehouse",

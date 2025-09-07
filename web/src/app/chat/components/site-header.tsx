@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useTranslations } from 'next-intl';
 
 import { LanguageSwitcher } from "~/components/data-nova/language-switcher";
+import { DataNovaIcon } from "~/components/data-nova/icons/datanova-icon";
 import { NumberTicker } from "~/components/magicui/number-ticker";
 import { Button } from "~/components/ui/button";
 import { env } from "~/env";
@@ -16,8 +17,8 @@ export function SiteHeader() {
   return (
     <header className="supports-backdrop-blur:bg-background/80 bg-background/40 sticky top-0 left-0 z-40 flex h-15 w-full flex-col items-center backdrop-blur-lg">
       <div className="container flex h-15 items-center justify-between px-3">
-        <div className="text-xl font-medium">
-          <span className="mr-1 text-2xl">🚀</span>
+        <div className="text-xl font-medium flex items-center gap-3">
+          <DataNovaIcon className="w-9 h-9 text-blue-500" />
           <span>DataNova</span>
         </div>
         <div className="relative flex items-center gap-2">

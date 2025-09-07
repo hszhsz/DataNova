@@ -7,7 +7,7 @@ import { ArrowUp, Lightbulb, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useCallback, useMemo, useRef, useState } from "react";
 
-import { Detective } from "~/components/data-nova/icons/detective";
+import { DataNovaIcon } from "~/components/data-nova/icons/datanova-icon";
 import MessageInput, {
   type MessageInputRef,
 } from "~/components/data-nova/message-input";
@@ -270,7 +270,7 @@ export function InputBox({
                 setEnableBackgroundInvestigation(!backgroundInvestigation)
               }
             >
-              <Detective /> {t("investigation")}
+              <DataNovaIcon className="w-5 h-5" /> {t("investigation")}
             </Button>
           </Tooltip>
           <ReportStyleDialog />
