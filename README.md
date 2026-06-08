@@ -11,6 +11,7 @@
 | [大数据平台 Agent 化转型方案](docs/agent-transformation-plan.md) | 三层架构 + 七个 Agent + 四步落地（含架构图） |
 | [开源数仓 / Data Agent 项目盘点](docs/open-source-data-agents.md) | 开源领域代表性项目梳理 |
 | [底座最佳实践：语义层 + 元数据 + 可信指标](docs/best-practices-semantic-metadata-metrics.md) | 数仓 Agent 信任链的建设方法 |
+| [银行业模拟数据平台设计文档](docs/bank-platform-design.md) | 沙箱蓝图：架构 / 分层 / 指标 / 7 类埋坑 |
 | [Roadmap](ROADMAP.md) | 分阶段建设路线图 |
 | [Contributing](CONTRIBUTING.md) | 贡献指南 |
 
@@ -45,10 +46,20 @@ flowchart TB
 ```
 DataNova/
 ├── docs/          # 方案与调研文档
+├── sandbox/       # 银行业模拟数据平台沙箱（Docker + dbt，含埋坑）
 ├── src/           # 探索性实现代码（规划中）
 ├── ROADMAP.md     # 路线图
 ├── CONTRIBUTING.md
 └── README.md
+```
+
+## 🏦 模拟沙箱（Sandbox）
+
+为了让 Agent "有活干"，我们用 Docker 搭了一个**银行业模拟数据平台**，并**故意埋了 7 类坑**（口径冲突、未脱敏、脏数据、血缘断裂、僵尸表、调度失败等）。一键启动见 [sandbox/README.md](sandbox/README.md)。
+
+```bash
+cd sandbox && docker compose up -d        # 起 PostgreSQL + MinIO + Trino
+pip install psycopg2-binary faker && python seed/generate_bank_data.py
 ```
 
 ## License

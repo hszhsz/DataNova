@@ -1,0 +1,14 @@
+# dbt 连接示例 (拷贝到 ~/.dbt/profiles.yml)
+# 直连 PostgreSQL 源库做分层加工; 如需经 Trino 查询, 另配 trino adapter。
+datanova_bank:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('PGHOST', 'localhost') }}"
+      port: 5432
+      user: "{{ env_var('PGUSER', 'bank') }}"
+      password: "{{ env_var('PGPASSWORD', 'bank_demo_pwd') }}"
+      dbname: "{{ env_var('PGDATABASE', 'core_bank') }}"
+      schema: dwd
+      threads: 4

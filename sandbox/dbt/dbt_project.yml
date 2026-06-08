@@ -1,0 +1,32 @@
+name: 'datanova_bank'
+version: '1.0.0'
+config-version: 2
+
+# DataNova 银行业模拟数仓 — dbt 工程
+# 分层: ODS(贴源) -> DWD(明细) -> DWS(汇总) -> ADS(应用) + DIM(维度)
+# 目标: 自动产出血缘 / 文档 / 测试, 为元数据/血缘/指标 Agent 提供 AI-Ready 上下文
+
+profile: 'datanova_bank'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+seed-paths: ["seeds"]
+
+models:
+  datanova_bank:
+    ods:
+      +materialized: view
+      +schema: ods
+    dwd:
+      +materialized: table
+      +schema: dwd
+    dws:
+      +materialized: table
+      +schema: dws
+    ads:
+      +materialized: table
+      +schema: ads
+    dim:
+      +materialized: table
+      +schema: dim

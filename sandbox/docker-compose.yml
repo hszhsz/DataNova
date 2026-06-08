@@ -1,0 +1,75 @@
+# DataNova 银行业模拟数据平台 — Docker 编排
+# 起步三件套：PostgreSQL(源库) + MinIO(对象存储) + Trino(OLAP 引擎)
+# OpenMetadata(元数据/血缘) 通过 profile "gov" 可选启用
+#
+# 用法:
+#   基础启动:        docker compose up -d
+#   含元数据平台:    docker compose --profile gov up -d
+#
+# 注意: 本文件仅用于本地探索, 切勿用于生产; 密码均为演示用弱口令。
+
+services:
+  # ---------- 源库: 模拟核心银行系统 (OLTP) ----------
+  postgres:
+    image: postgres:16
+    container_name: datanova-postgres
+    environment:
+      POSTGRES_USER: bank
+      POSTGRES_PASSWORD: bank_demo_pwd
+      POSTGRES_DB: core_bank
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bank -d core_bank"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ---------- 对象存储: 模拟数据湖 (替代 HDFS) ----------
+  minio:
+    image: minio/minio:latest
+    container_name: datanova-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # 控制台
+    volumes:
+      - miniodata:/data
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  # ---------- OLAP 查询引擎 ----------
+  trino:
+    image: trinodb/trino:latest
+    container_name: datanova-trino
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./trino/catalog:/etc/trino/catalog:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # ---------- 元数据/血缘平台 (可选, profile: gov) ----------
+  openmetadata:
+    image: openmetadata/server:latest
+    container_name: datanova-openmetadata
+    profiles: ["gov"]
+    ports:
+      - "8585:8585"
+    depends_on:
+      - postgres
+    # 说明: OpenMetadata 完整部署还需 elasticsearch/mysql 等依赖,
+    # 生产请参考官方 docker-compose; 此处仅占位, 按需替换为官方编排。
+
+volumes:
+  pgdata:
+  miniodata:

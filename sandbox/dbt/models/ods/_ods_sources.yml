@@ -1,0 +1,36 @@
+version: 2
+
+# ODS 贴源: 声明 PostgreSQL ods schema 中由 generate_bank_data.py 生成的源表
+# Agent 可据此识别血缘起点。⚠️ 注意: 这里保留了脏数据与未脱敏字段(见埋坑清单)。
+sources:
+  - name: ods
+    schema: ods
+    description: "贴源原始快照, 保留脏数据, 来自核心银行系统模拟。"
+    tables:
+      - name: cust_info
+        description: "客户信息。⚠️埋坑#2: id_card_no(C4)/mobile(C3) 明文未脱敏。"
+        columns:
+          - name: cust_id
+            tests: [unique, not_null]
+          - name: id_card_no
+            description: "身份证号 — C4 敏感, 明文。安全合规 Agent 应告警。"
+          - name: mobile
+            description: "手机号 — C3 敏感, 明文。"
+      - name: cust_kyc
+        description: "KYC。⚠️埋坑#4: risk_level/occupation 约 15% 为 NULL。"
+      - name: acct_deposit
+        description: "存款账户。⚠️埋坑#4: 约 1% balance 为负。"
+        columns:
+          - name: acct_id
+            tests: [unique, not_null]
+      - name: acct_loan
+        description: "贷款账户, 含 overdue_days 用于不良判定。"
+      - name: txn_flow
+        description: "交易流水。⚠️埋坑#4: 约 0.2% 金额异常巨额。"
+        columns:
+          - name: txn_id
+            tests: [unique, not_null]
+      - name: prod_info
+      - name: dim_org
+      - name: zombie_acct_summary_bak
+        description: "⚠️埋坑#6: 僵尸表, 无下游引用, 资产治理 Agent 应识别并建议下线。"

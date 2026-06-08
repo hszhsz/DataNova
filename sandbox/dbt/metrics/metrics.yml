@@ -1,0 +1,62 @@
+version: 2
+
+# DataNova 银行业核心指标口径 (dbt 语义层 / metrics 示例)
+# 作为"可信指标"的单一事实来源(SSoT)。Agent 据此理解业务口径。
+# ⚠️埋坑#1: "活跃客户"故意保留两套冲突口径(零售近30天 vs 对公近90天),
+#   指标治理 Agent 应发现冲突并提示统一。
+
+metrics:
+  - name: deposit_balance
+    label: 存款余额
+    description: 期末所有 active 存款账户余额之和
+    type: simple
+    type_params:
+      measure: deposit_balance_sum
+    meta:
+      domain: 账户域
+      certified: true
+
+  - name: npl_ratio
+    label: 不良率(NPL)
+    description: 不良贷款本金 / 贷款总本金; 不良判定 overdue_days > 90
+    type: ratio
+    type_params:
+      numerator: npl_principal
+      denominator: total_principal
+    meta:
+      domain: 风险域
+      certified: false   # 埋坑#3: 口径分散, 尚未认证
+
+  # ⚠️埋坑#1: 同一业务概念"活跃客户", 两套口径并存且未对齐
+  - name: active_customer_retail
+    label: 活跃客户(零售口径)
+    description: 近 30 天有成功交易的客户数
+    type: simple
+    type_params:
+      measure: active_cust_cnt
+    meta:
+      domain: 客户域
+      caliber: 近30天
+      conflict_with: active_customer_corp   # 与对公口径冲突
+
+  - name: active_customer_corp
+    label: 活跃客户(对公口径)
+    description: 近 90 天有成功交易的客户数
+    type: simple
+    type_params:
+      measure: active_cust_cnt
+    meta:
+      domain: 客户域
+      caliber: 近90天
+      conflict_with: active_customer_retail # 与零售口径冲突
+
+  - name: txn_success_rate
+    label: 交易成功率
+    description: 成功交易笔数 / 总交易笔数
+    type: ratio
+    type_params:
+      numerator: txn_success_cnt
+      denominator: txn_total_cnt
+    meta:
+      domain: 交易域
+      certified: true
